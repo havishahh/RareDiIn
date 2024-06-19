@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rarediin</title>
+</head>
+<body>
+    <header>
+        <div style="text-align: left;">
+            <img src="down.png" alt="Rarediin logo">
+        </div>
+        <nav>
+            <ul style="text-align: right;">
+                <li><a href="1_home.html">Home</a></li>
+                <li><a href="2_information.html">Information</a></li>
+                <li><a href="3_feedback.html">Feedback</a></li>
+                <li><a href="4_contactUs.html">Contact Us</a></li>
+                <li><a href="5_aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div style="width: 30%; height: 100px; float: left; margin-left: 20%;margin-top: 2%;">
+        <form id="feedbackForm" onsubmit="return validateForm()">
+            <table>
+                <tr>
+                    <td><h2 style="text-align: center;">Feedback</h2></td>
+                </tr>
+
+                <tr>
+                    <td><label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required><br><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="feedback">Suggestion:</label><br>
+                        <textarea id="feedback" name="feedback" rows="3" cols="28" placeholder="Enter your Suggestions"></textarea><br></td>
+                </tr>
+                <tr style="text-align: center; padding-top: 10ch;">
+                    <td><input type="submit" value="Submit" style="height: 30px; width: 150px; background-color: palevioletred;"></td>
+                </tr>
+
+            </table>
+        </form>
+        </div>
+        <div>
+            <img src="feedback.png" height="300px" width="400px" style="margin-top: 2%; margin-left: 2%;">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;Rarediin, All rights reserved.</p>
+    </footer>
+</body>
+</html>

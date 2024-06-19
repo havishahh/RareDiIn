@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Rarediin</title>
+    <style>
+        .card {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .card a {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body style="height: 250vh;">
+    <header>
+        <div style="text-align: left;">
+            <img src="down.png" alt="Rarediin logo">
+        </div>
+        <nav>
+            <ul style="text-align: right;">
+                <li><a href="1_home.html">Home</a></li>
+                <li><a href="2_information.html">Information</a></li>
+                <li><a href="3_feedback.html">Feedback</a></li>
+                <li><a href="4_contactUs.html">Contact Us</a></li>
+                <li><a href="5_aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="text-align: center; margin-top: 1%;" >
+        <h5>Find diseases & conditions by first letter</h5>
+        <div>
+            <button onclick="toggleCard('A')">A</button>
+            <button onclick="toggleCard('B')">B</button>
+            <button onclick="toggleCard('C')">C</button>
+            <button onclick="toggleCard('D')">D</button>
+            <button onclick="toggleCard('E')">E</button>
+            <button onclick="toggleCard('F')">F</button>
+            <button>G</button>
+            <button>H</button>
+            <button>I</button>
+            <button>J</button><br>
+            <button>K</button>
+            <button>L</button>
+            <button>M</button>
+            <button>N</button>
+            <button>O</button>
+            <button>P</button>
+            <button>Q</button>
+            <button>R</button>
+            <button>S</button>
+            <button>T</button><br>
+            <div style="text-align: center;">
+            <button>U</button>
+            <button>V</button>
+            <button>W</button>
+            <button>X</button>
+            <button>Y</button>
+            <button>Z</button></div>
+        </div>
+    
+        <div>
+            <div id="cardA" class="card">
+              <a href="achalasia.html">Achalasia</a>
+              <a href="atrial_fibrillation.html">Atrial fibrillation</a>
+              <a href="absence_seizure.html">Absence seizure</a>
+            </div>
+
+            <div id="cardB" class="card">
+                <a href=" ">Bacterial vaginosis</a>
+                <a href=" ">Baker cyst</a>
+              </div>
+    </main>
+
+    <footer>
+        <p>&copy;Rarediin, All rights reserved.</p>
+    </footer>
+</body>
+</html>
